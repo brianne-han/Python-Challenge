@@ -70,3 +70,12 @@ with open(output_file, 'w') as file:
     file.write(f"Greatest Increase in Profits: {greatest_inc_prof_change_date} (${greatest_prof_inc})")
     file.write("\n")
     file.write(f"Greatest Decrease in Profits: {greatest_dec_prof_change_date} (${greatest_prof_dec})")
+
+# print the results
+print("Financial Analysis")
+print("---------------------")
+print(f"Total Months: {total_months}")
+print(f"Total: ${total_profit}")
+print(f"Average Change: ${avg_change}")
+print(f"Greatest Increase in Profits: {greatest_inc_prof_change_date} (${greatest_prof_inc})")
+print(f"Greatest Decrease in Profits: {greatest_dec_prof_change_date} (${greatest_prof_dec})")
